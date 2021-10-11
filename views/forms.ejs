@@ -1,0 +1,104 @@
+<%- include('./includes/head.ejs') %>
+
+<%- include('./includes/navigation.ejs') %>
+
+<h1 class="text-center box ">Chapter 4 - Forms</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="">
+                <form action="">
+                    <div>
+                        <input type="text" name="u_name">
+                    </div>
+                    <div>
+                        <input type="text" name="u_pass">
+                    </div>
+                    <div>
+                        <input type="submit" name="u_login">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="border border-info mt-3 rounded my_form">
+                <form action="">
+                    <div>
+                        <input type="text" name="u_name">
+                    </div>
+                    <div>
+                        <input type="text" name="u_pass">
+                    </div>
+                    <div>
+                        <input type="submit" name="u_login">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="border border-info mt-3 rounded my_form">
+                <h4>Login into Admin Dash</h4>
+                <p class="text-muted">Login as admin</p>
+                <form action="">
+                    <div class="mb-3">
+                        <!-- label is considered the old way...use placeholder as anoption -->
+                        <!-- <label for="u_name" class="form-label">Username</label> -->
+                        <input type="text" name="u_name" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="u_pass" class="form-label">password</label>  -->
+                        <input type="text" name="u_pass" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" value="login" name="u_login" class="btn btn-primary">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="border border-info mt-3 rounded my_form">
+                <h4>Sign-up to get started</h4>
+                <p class="text-muted">Receive Weekly Updates</p>
+                <form action="">
+                    <div class="row mb-3">
+                        <div class="col-lg-6">
+                            <input type="text" name="f_name" placeholder="First Name" class="form-control form-control-sm">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" name="l_name" placeholder="Last Name" class="form-control form-control-sm">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="email" name="e_mail" placeholder="Email ID" class="form-control form-control-sm">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col d-grid">
+                            <input type="button" class="btn btn-lg btn-primary" value="Sign up for newsletters">
+                        </div>
+                   </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('./includes/end.ejs') %>

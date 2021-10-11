@@ -1,0 +1,19 @@
+.box {
+    padding:15px;
+    background-color: teal;
+    margin: 10px 0 10px 0;
+}
+
+.height {
+    height:200px;
+    border:1px solid black;
+}
+
+.my_form {
+ padding:15px;
+ box-shadow: 2px 2px 8px rgba(0,0,0,0.3);   
+}
+
+.btn_align {
+    float: right;
+}
